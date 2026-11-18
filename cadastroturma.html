@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerenciador de Portfólios - Menu</title>
+    <title>Gerenciador de Portfólios - Cadastro Turma</title>
     <link rel="stylesheet" href="style2.css">
     <script src="https://kit.fontawesome.com/7f3ade3e1e.js" crossorigin="anonymous"></script>
 </head>
@@ -23,45 +23,39 @@
             <p>Nome do usuário</p>
         </div>
     </header>
+
      <section class="nav-e-main">
         <nav>
             <ul>
-                <li><a href="principal.html"><i class="fa-solid fa-house"></i> Menu</a></li>
-                <li><a href="cadastrocliente.html"><i class="fa-solid fa-user"></i> Cadastro Clientes</a></li>
-                <li><a href="listacliente.html"><i class="fa-solid fa-list"></i> Listagem Cliente</a></li>
-                <li><a href="cadastroveiculo.html"><i class="fa-solid fa-car"></i> Cadastro Veículo</a></li>
-                <li><a href="cadastroagendamento.html"><i class="fa-regular fa-calendar"></i> Cadastro Agendamento</a>
-                </li>
-                <li><a href="listaagendamento.html"><i class="fa-solid fa-list"></i> Listagem Agendamento</a></li>
+                <li><a href="cadastroturma.html"><i class="fa-solid fa-house"></i> Cadastro Turma</a></li>
+                <li><a href="listaturma.html"><i class="fa-solid fa-user"></i> Lista Turma</a></li>
+                <li><a href="cadastroaluno.html"><i class="fa-solid fa-list"></i> Cadastro Aluno</a></li>
+                <li><a href="listaaluno.html"><i class="fa-solid fa-car"></i> Lista Aluno</a></li>
+                <li><a href="cadastroprojeto.html"><i class="fa-regular fa-calendar"></i> Cadastro Projeto</a></li>
+                <li><a href="listaprojeto.html"><i class="fa-solid fa-list"></i> Lista Projeto</a></li>
             </ul>
         </nav>
         <main>
-            <h2>Cadastro de Clientes</h2>
+            <h2>Cadastro de Turmas</h2>
             <form>
                 <h3>Preencha as informações abaixo:</h3>
 
                 <div class="inputgroup">
                     <label for="username"></label>
                     <div class="input-item">
-                        <input id="username" type="text" placeholder="Nome completo:">
+                        <input id="username" type="text" placeholder="Nome:">
                     </div>
                 </div>
                 <div class="inputgroup">
-                    <label for="cellphone"></label>
+                    <label for="periodo"></label>
                     <div class="input-item">
-                        <input id="telefone" type="tel" placeholder="Telefone:">
+                        <input id="periodo" type="text" placeholder="Período:">
                     </div>
                 </div>
                 <div class="inputgroup">
-                    <label for="email"></label>
+                    <label for="teacher"></label>
                     <div class="input-item">
-                        <input id="email" type="email" placeholder="Email:">
-                    </div>
-                </div>
-                <div class="inputgroup">
-                    <label for="address"></label>
-                    <div class="input-item">
-                        <input id="endereco" type="text" placeholder="Endereço:">
+                        <input id="teacher" type="text" placeholder="Professor:">
                     </div>
                 </div>
                 <button class="btn-finalizar">Finalizar cadastro</button>

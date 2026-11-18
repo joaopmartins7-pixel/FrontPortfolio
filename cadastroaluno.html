@@ -23,6 +23,56 @@
             <p>Nome do usuário</p>
         </div>
     </header>
+    <section class="nav-e-main">
+        <nav>
+            <ul>
+                <li><a href="cadastroturma.html"><i class="fa-solid fa-house"></i> Cadastro Turma</a></li>
+                <li><a href="listaturma.html"><i class="fa-solid fa-user"></i> Lista Turma</a></li>
+                <li><a href="cadastroaluno.html"><i class="fa-solid fa-list"></i> Cadastro Aluno</a></li>
+                <li><a href="listaaluno.html"><i class="fa-solid fa-car"></i> Lista Aluno</a></li>
+                <li><a href="cadastroprojeto.html"><i class="fa-regular fa-calendar"></i> Cadastro Projeto</a></li>
+                <li><a href="listaprojeto.html"><i class="fa-solid fa-list"></i> Lista Projeto</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Cadastro de Veículos</h2>
+            <form>
+                <h3>Preencha as informações abaixo:</h3>
+
+                <div class="inputgroup">
+                    <label for="model"></label>
+                    <div class="input-item">
+                        <input id="modelo" type="text" placeholder="Modelo:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="brand"></label>
+                    <div class="input-item">
+                        <input id="marca" type="text" placeholder="Marca:">
+                    </div>
+                </div>
+                <div class="inputgroup">
+                    <label for="placa"></label>
+                    <div class="input-item">
+                        <input id="placa" type="text" placeholder="Placa:">
+                    </div>
+                </div>
+                <label for="Cliente"></label>
+                <div class="input-item">
+                    <select id="Cliente" name="Cliente">
+                        <option value="" selected>Selecione um cliente...</option>
+                        <option value="cliente1">Sophia Arbuquerque</option>
+                        <option value="cliente2">Raquel Brito</option>
+                        <option value="cliente3">Karol com K</option>
+                        <option value="cliente4">Juliette Freire</option>
+                        <option value="cliente5">Luis Inácio</option>
+                        <option value="cliente6">Lucas Rangel</option>
+                    </select>
+                </div>
+                <button class="btn-finalizar">Finalizar cadastro</button>
+            </form>
+        </main>
+    </section>
 
 </body>
 

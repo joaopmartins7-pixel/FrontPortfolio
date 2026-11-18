@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerenciador de Portfólios - Menu</title>
+    <title>Gerenciador de Portfólios - Lista Turma</title>
     <link rel="stylesheet" href="style2.css">
     <script src="https://kit.fontawesome.com/7f3ade3e1e.js" crossorigin="anonymous"></script>
 </head>
@@ -23,6 +23,63 @@
             <p>Nome do usuário</p>
         </div>
     </header>
+    <section class="nav-e-main">
+        <nav>
+            <ul>
+                <li><a href="cadastroturma.html"><i class="fa-solid fa-house"></i> Cadastro Turma</a></li>
+                <li><a href="listaturma.html"><i class="fa-solid fa-user"></i> Lista Turma</a></li>
+                <li><a href="cadastroaluno.html"><i class="fa-solid fa-list"></i> Cadastro Aluno</a></li>
+                <li><a href="listaaluno.html"><i class="fa-solid fa-car"></i> Lista Aluno</a></li>
+                <li><a href="cadastroprojeto.html"><i class="fa-regular fa-calendar"></i> Cadastro Projeto</a></li>
+                <li><a href="listaprojeto.html"><i class="fa-solid fa-list"></i> Lista Projeto</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2 class="h2-table">Lista das Turmas</h2>
+                <div class="inputgroup">
+                    <label for="busca"></label>
+                    <div class="input-item">
+                        <input id="busca" type="text" placeholder="Buscar turma...">
+                    </div>
+                </div>
+            </section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Perído</th>
+                        <th>Professor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1DTM</td>
+                        <td>Integral</td>
+                        <td>Mario e Bruna</td>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1ETM</td>
+                        <td>Integral</td>
+                        <td>Marega</td>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1ADMM</td>
+                        <td>Manhã</td>
+                        <td></td>
+                        <td class="td-icon"><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </section>
 
 </body>
 
